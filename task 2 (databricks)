@@ -1,0 +1,25 @@
+Part1:
+Create an Azure Databricks workspace from Azure Portal
+Launch Databricks workspace
+Create a Single Node Cluster
+Attach cluster to a notebook
+Run a basic Spark command - spark.range(1, 50).count() 
+Show its output
+ 
+Part 2:
+Create a Storage Account (ADLS Gen2)
+Upload a CSV file: Employees.csv
+Configure access using SAS Token
+Read data using Spark
+Part3:
+Select specific columns
+Filter employees with salary > 50,000
+Add a derived column (New Column) Tax
+Save transformed data as Delta Table
+Part4:
+Update records in Delta table
+View Delta table history
+Check the updated data with Change Data Feed
+
+Part5: 
+Show a dashboard with Department wise - Average Salary
